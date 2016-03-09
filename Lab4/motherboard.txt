@@ -1,0 +1,23 @@
+Motherboard DELL E93839 GA0402
+
+DSKT
+
+4xDIMM memory slots, 2 memory cards attached (2GB each)
+
+4 SATA slots, 3 used
+
+1 labeled 'USB' (attached)
+
+1 labeled 'CPU fan' (attached)
+
+DP Port 1 Parallel (attached to eSATA / DisplayPort / Pink port)
+
+VGA Serial (attached to VGA / 5 + 4 port)
+
+INT_SPKR (not attached)
+
+Disk Controller : SATA
+
+SATA0 : 250GB Western Digital WD2500AAJS RPM 7200
+
+

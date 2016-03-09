@@ -1,0 +1,649 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{enumerate}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Lab Report 4
+\end_layout
+
+\begin_layout Author
+Joe Opseth & Becca Woitas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Itemize
+Options & Settings for the Power Management Menu
+\end_layout
+
+\begin_layout Itemize
+Boot Options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Computer & External Peripheral Devices
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Manufacturer & Model Number: Dell Optiplex 760 00144352256753
+\end_layout
+
+\begin_layout Enumerate
+Ports
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+2 audio ports: 3.5mm mini jacks; used for speakers and microphones
+\end_layout
+
+\begin_layout Enumerate
+4 USB ports: Universal plug-and-play connector; used for mice, flash drives,
+ etc.
+\end_layout
+
+\begin_layout Enumerate
+1 VGA port: Video Graphics Array; used for monitors; could be used to connect
+ a laptop
+\end_layout
+
+\begin_layout Enumerate
+1 eSATA: Allows fast connection to external hard drives; used for hard drives,
+ DVD drives
+\end_layout
+
+\begin_layout Enumerate
+1 LAN: Local Area Network port (RJ-45 Ethernet socket); connects to switches,
+ hubs, routers
+\end_layout
+
+\begin_layout Enumerate
+1 parallel port: 25 pin port that transfers bytes simultaneously; can be
+ used for printers and zip drives
+\end_layout
+
+\begin_layout Enumerate
+1 display port: alternate to HDMI; connects to monitors, projectors
+\end_layout
+
+\begin_layout Enumerate
+1 DE-9 Serial RS 232: non-simultaneous data transfer; can connect to a mouse,
+ printer, or modem
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Peripheral Devices
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Monitor
+\end_layout
+
+\begin_layout Enumerate
+Keyboard
+\end_layout
+
+\begin_layout Enumerate
+Mouse
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Motherboard
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Processor: Intel Core 2 Duo
+\end_layout
+
+\begin_layout Enumerate
+Bus Types: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+4 PCIE x16, 1 has network card
+\end_layout
+
+\begin_layout Enumerate
+4xDIMM memory slots, 2 attached
+\end_layout
+
+\begin_layout Enumerate
+4xSATA, 3 attached
+\end_layout
+
+\begin_layout Enumerate
+1xUSB, attached
+\end_layout
+
+\begin_layout Enumerate
+1xCPU fan, attached
+\end_layout
+
+\begin_layout Enumerate
+1xDPI Port 1 Parallel (attached to eSATA/DisplayPort/Parallel Port)
+\end_layout
+
+\begin_layout Enumerate
+1xVGA Serial (attached to VGA / 5+4 port)
+\end_layout
+
+\begin_layout Enumerate
+1xINT_SPKR, not attached
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Disk Controllers: 4x SATA
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SATA0 connected to 250GB Hard Drive
+\end_layout
+
+\begin_layout Enumerate
+SATA1 connected to DVD-ROM
+\end_layout
+
+\begin_layout Enumerate
+SATA2 connected to DVD-RW
+\end_layout
+
+\begin_layout Enumerate
+SATA3 empty
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Main Memory: 4 slots, 2x2GB occupied
+\end_layout
+
+\begin_layout Enumerate
+CMOS: PI3 PCIE 2612-BZFE 0848XG
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Internal Components
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hard Drives
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+1x250GB SATA Western Digital 7200RPM
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Other Devices
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+1xDVD-ROM DH-16D3S
+\end_layout
+
+\begin_layout Enumerate
+1xDVD-RW GH30N
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Network Interface Card
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Manufacturer: 3COM
+\end_layout
+
+\begin_layout Enumerate
+Adapter: Ethernet
+\end_layout
+
+\begin_layout Enumerate
+Model Number: 920-BR06
+\end_layout
+
+\begin_layout Enumerate
+MAC Address: 000102690C82
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+BIOS
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Basic Information
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+BIOS version: A02
+\end_layout
+
+\begin_layout Enumerate
+Processor Type: Intel Core 2 Duo CPU E8400
+\end_layout
+
+\begin_layout Enumerate
+Processor Speed: 3.00GHz
+\end_layout
+
+\begin_layout Enumerate
+Cache RAM: 6MB
+\end_layout
+
+\begin_layout Enumerate
+System Memory: 4GB
+\end_layout
+
+\begin_layout Enumerate
+Memory Bank 1: 2GB
+\end_layout
+
+\begin_layout Enumerate
+Memory Bank 2: 2GB
+\end_layout
+
+\begin_layout Enumerate
+Memory Bank 3: empty
+\end_layout
+
+\begin_layout Enumerate
+Memory Bank 4: empty
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Does it match? This matches the information we found.
+\end_layout
+
+\begin_layout Enumerate
+Expandable Categories
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+General: Information, Date/Time, Boot Sequence
+\end_layout
+
+\begin_layout Enumerate
+Drives: Options for controlling the disk drives
+\end_layout
+
+\begin_layout Enumerate
+System Configuration: Settings for the network card, USB, and other ports
+\end_layout
+
+\begin_layout Enumerate
+Video: Information on the graphics cards
+\end_layout
+
+\begin_layout Enumerate
+Performance: Settings for the processor and the hard drive speed
+\end_layout
+
+\begin_layout Enumerate
+Virtualization Support: Settings for virtual machine setup
+\end_layout
+
+\begin_layout Enumerate
+Security: Settings for system administration and SATA passwords and other
+ security
+\end_layout
+
+\begin_layout Enumerate
+Power Management: Settings for suspend and the fans and startup and shutdown
+\end_layout
+
+\begin_layout Enumerate
+Maintenance: Service tag, asset tag, and SERR messages
+\end_layout
+
+\begin_layout Enumerate
+Image Server: Client server settings for image server
+\end_layout
+
+\begin_layout Enumerate
+Post behavior: Options for the boot process, keyboard, and memory
+\end_layout
+
+\begin_layout Enumerate
+System logs: A list of BIOS events
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Drives Configuration
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SATA/IDE Devices:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SATA-0 250GB Hard Drive
+\end_layout
+
+\begin_layout Enumerate
+SATA-1 DVD-ROM Drive
+\end_layout
+
+\begin_layout Enumerate
+SATA-2 DVD-RW
+\end_layout
+
+\begin_layout Enumerate
+SATA-3 empty
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Does it match? This matches what we saw inside the computer.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Security Menu Options
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Administrator Password: Not set
+\end_layout
+
+\begin_layout Enumerate
+System password: Not set
+\end_layout
+
+\begin_layout Enumerate
+Password Changes: Disabled; lets the system password be changed without
+ the administrator password
+\end_layout
+
+\begin_layout Enumerate
+TPM Security (Trusted Platform Module): Not set
+\end_layout
+
+\begin_layout Enumerate
+CPU xD Support: Enabled; execute-disable bit capability to prevent exploitation
+ of buffer overflows
+\end_layout
+
+\begin_layout Enumerate
+Computrace: Deactivated
+\end_layout
+
+\begin_layout Enumerate
+SATA-0 Password: Not set
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Power Management Options
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+AC Recovery; Power Off (when AC is restored after loss)
+\end_layout
+
+\begin_layout Enumerate
+Auto On Time: 12:00 AM, Disabled
+\end_layout
+
+\begin_layout Enumerate
+Low Power Mode: Disabled; saves power in shutdown or hibernate mode (turns
+ off integrated NIC)
+\end_layout
+
+\begin_layout Enumerate
+Remote Wake Up: Enabled
+\end_layout
+
+\begin_layout Enumerate
+Suspend Mode: S1 (resume more quickly from sleep, use more power)
+\end_layout
+
+\begin_layout Enumerate
+Fan Control Override: Disabled; Makes fan run at full speed
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Boot Sequence Menu
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Options
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Disable devices
+\end_layout
+
+\begin_layout Enumerate
+Change Device Order
+\end_layout
+
+\begin_layout Enumerate
+Load Defaults
+\end_layout
+
+\begin_layout Enumerate
+Exit
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Boot Order
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Floppy Drive
+\end_layout
+
+\begin_layout Enumerate
+SATA Hard Drive
+\end_layout
+
+\begin_layout Enumerate
+CD-ROM Drive
+\end_layout
+
+\begin_layout Enumerate
+Network Controller
+\end_layout
+
+\begin_layout Enumerate
+USB Device
+\end_layout
+
+\begin_layout Enumerate
+MBA UNDI
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+http://www.hardwaresecrets.com/how-on-board-audio-works/
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+http://etc.usf.edu/techease/win/hardware/what-is-usb/
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+http://www.makeuseof.com/tag/video-cables-explained-difference-vga-dvi-hdmi-ports/
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+https://www.sata-io.org/esata
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+http://www.pcmag.com/encyclopedia/term/63301/lan-port
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+http://computer.howstuffworks.com/parallel-port.htm
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+http://www.pcworld.com/article/2030669/hdmi-vs-displayport-which-display-interface
+-reigns-supreme.html
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+http://www.pcmag.com/encyclopedia/term/51137/serial-port
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

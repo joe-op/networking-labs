@@ -1,0 +1,225 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{enumerate}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Lab Report 4}
+
+
+\author{Joe Opseth \& Becca Woitas}
+
+\maketitle
+\begin{minipage}[t]{1\columnwidth}%
+\begin{itemize}
+\item Options \& Settings for the Power Management Menu
+\item Boot Options\end{itemize}
+%
+\end{minipage}
+\begin{enumerate}
+\item Computer \& External Peripheral Devices
+
+\begin{enumerate}
+\item Manufacturer \& Model Number: Dell Optiplex 760 00144352256753
+\item Ports
+
+\begin{enumerate}
+\item 2 audio ports: 3.5mm mini jacks; used for speakers and microphones
+\item 4 USB ports: Universal plug-and-play connector; used for mice, flash
+drives, etc.
+\item 1 VGA port: Video Graphics Array; used for monitors; could be used
+to connect a laptop
+\item 1 eSATA: Allows fast connection to external hard drives; used for
+hard drives, DVD drives
+\item 1 LAN: Local Area Network port (RJ-45 Ethernet socket); connects to
+switches, hubs, routers
+\item 1 parallel port: 25 pin port that transfers bytes simultaneously;
+can be used for printers and zip drives
+\item 1 display port: alternate to HDMI; connects to monitors, projectors
+\item 1 DE-9 Serial RS 232: non-simultaneous data transfer; can connect
+to a mouse, printer, or modem
+\end{enumerate}
+\item Peripheral Devices
+
+\begin{enumerate}
+\item Monitor
+\item Keyboard
+\item Mouse
+\end{enumerate}
+\end{enumerate}
+\item Motherboard
+
+\begin{enumerate}
+\item Processor: Intel Core 2 Duo
+\item Bus Types: 
+
+\begin{enumerate}
+\item 4 PCIE x16, 1 has network card
+\item 4xDIMM memory slots, 2 attached
+\item 4xSATA, 3 attached
+\item 1xUSB, attached
+\item 1xCPU fan, attached
+\item 1xDPI Port 1 Parallel (attached to eSATA/DisplayPort/Parallel Port)
+\item 1xVGA Serial (attached to VGA / 5+4 port)
+\item 1xINT\_SPKR, not attached
+\end{enumerate}
+\item Disk Controllers: 4x SATA
+
+\begin{enumerate}
+\item SATA0 connected to 250GB Hard Drive
+\item SATA1 connected to DVD-ROM
+\item SATA2 connected to DVD-RW
+\item SATA3 empty
+\end{enumerate}
+\item Main Memory: 4 slots, 2x2GB occupied
+\item CMOS: PI3 PCIE 2612-BZFE 0848XG
+\end{enumerate}
+\item Internal Components
+
+\begin{enumerate}
+\item Hard Drives
+
+\begin{enumerate}
+\item 1x250GB SATA Western Digital 7200RPM
+\end{enumerate}
+\item Other Devices
+
+\begin{enumerate}
+\item 1xDVD-ROM DH-16D3S
+\item 1xDVD-RW GH30N
+\end{enumerate}
+\end{enumerate}
+\item Network Interface Card
+
+\begin{enumerate}
+\item Manufacturer: 3COM
+\item Adapter: Ethernet
+\item Model Number: 920-BR06
+\item MAC Address: 000102690C82
+\end{enumerate}
+\item BIOS
+
+\begin{enumerate}
+\item Basic Information
+
+\begin{enumerate}
+\item BIOS version: A02
+\item Processor Type: Intel Core 2 Duo CPU E8400
+\item Processor Speed: 3.00GHz
+\item Cache RAM: 6MB
+\item System Memory: 4GB
+\item Memory Bank 1: 2GB
+\item Memory Bank 2: 2GB
+\item Memory Bank 3: empty
+\item Memory Bank 4: empty
+\end{enumerate}
+\item Does it match? This matches the information we found.
+\item Expandable Categories
+
+\begin{enumerate}
+\item General: Information, Date/Time, Boot Sequence
+\item Drives: Options for controlling the disk drives
+\item System Configuration: Settings for the network card, USB, and other
+ports
+\item Video: Information on the graphics cards
+\item Performance: Settings for the processor and the hard drive speed
+\item Virtualization Support: Settings for virtual machine setup
+\item Security: Settings for system administration and SATA passwords and
+other security
+\item Power Management: Settings for suspend and the fans and startup and
+shutdown
+\item Maintenance: Service tag, asset tag, and SERR messages
+\item Image Server: Client server settings for image server
+\item Post behavior: Options for the boot process, keyboard, and memory
+\item System logs: A list of BIOS events
+\end{enumerate}
+\item Drives Configuration
+
+\begin{enumerate}
+\item SATA/IDE Devices:
+
+\begin{enumerate}
+\item SATA-0 250GB Hard Drive
+\item SATA-1 DVD-ROM Drive
+\item SATA-2 DVD-RW
+\item SATA-3 empty
+\end{enumerate}
+\item Does it match? This matches what we saw inside the computer.
+\end{enumerate}
+\item Security Menu Options
+
+\begin{enumerate}
+\item Administrator Password: Not set
+\item System password: Not set
+\item Password Changes: Disabled; lets the system password be changed without
+the administrator password
+\item TPM Security (Trusted Platform Module): Not set
+\item CPU xD Support: Enabled; execute-disable bit capability to prevent
+exploitation of buffer overflows
+\item Computrace: Deactivated
+\item SATA-0 Password: Not set
+\end{enumerate}
+\item Power Management Options
+
+\begin{enumerate}
+\item AC Recovery; Power Off (when AC is restored after loss)
+\item Auto On Time: 12:00 AM, Disabled
+\item Low Power Mode: Disabled; saves power in shutdown or hibernate mode
+(turns off integrated NIC)
+\item Remote Wake Up: Enabled
+\item Suspend Mode: S1 (resume more quickly from sleep, use more power)
+\item Fan Control Override: Disabled; Makes fan run at full speed
+\end{enumerate}
+\item Boot Sequence Menu
+
+\begin{enumerate}
+\item Options
+
+\begin{enumerate}
+\item Disable devices
+\item Change Device Order
+\item Load Defaults
+\item Exit
+\end{enumerate}
+\item Boot Order
+
+\begin{enumerate}
+\item Floppy Drive
+\item SATA Hard Drive
+\item CD-ROM Drive
+\item Network Controller
+\item USB Device
+\item MBA UNDI
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\begin{minipage}[t]{1\columnwidth}%
+\textit{http://www.hardwaresecrets.com/how-on-board-audio-works/}
+
+\textit{http://etc.usf.edu/techease/win/hardware/what-is-usb/}
+
+\textit{http://www.makeuseof.com/tag/video-cables-explained-difference-vga-dvi-hdmi-ports/}
+
+\textit{https://www.sata-io.org/esata}
+
+\textit{http://www.pcmag.com/encyclopedia/term/63301/lan-port}
+
+\textit{http://computer.howstuffworks.com/parallel-port.htm}
+
+\textit{http://www.pcworld.com/article/2030669/hdmi-vs-displayport-which-display-interface-reigns-supreme.html}
+
+\textit{http://www.pcmag.com/encyclopedia/term/51137/serial-port}%
+\end{minipage}
+\end{document}

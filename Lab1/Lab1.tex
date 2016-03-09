@@ -1,0 +1,101 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\date{}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Lab 1}
+
+
+\author{Joe Opseth \& Becca Woitas}
+
+\maketitle
+
+\subsection*{FireWire vs USB}
+
+FireWire and USB are two standards for connecting devices. Firewire
+is less common and does not require a PC to act as the host.
+
+\begin{tabular}{|c|c|}
+\hline 
+FireWire & USB\tabularnewline
+\hline 
+\hline 
+800 Mbps & 480 Mbps (2.0), 5Gbps (3.0)\tabularnewline
+\hline 
+Peer-to-Peer & Needs PC Host\tabularnewline
+\hline 
+Up to 33 Volt output & Up to 5 Volt output\tabularnewline
+\hline 
+Up to 15' Cable & Up to 16' Cable\tabularnewline
+\hline 
+\end{tabular}
+
+
+\subsection*{Costs of Memory}
+
+\begin{tabular}{|c|c|c|}
+\hline 
+Type of Memory & Cost & Cost/GB\tabularnewline
+\hline 
+\hline 
+RAM & 16GB for \$34 & \$2.125\tabularnewline
+\hline 
+SSD & 512GB for \$120 & \$0.23\tabularnewline
+\hline 
+SATA & 500GB for \$20 & \$0.04\tabularnewline
+\hline 
+\end{tabular}
+
+Source: newegg.com
+
+
+\subsection*{CSEL Configuration of an IDE Bus}
+
+CSEL or cable select configuration is where the 'master' hard drive
+is the one plugged into the master connector on the motherboard, without
+needing to set jumpers.
+
+
+\subsection*{Binary MAC Address to Hex}
+
+0000 0000 0000 0100 0111 0110 1011 1010 1100 0010 0011 0001 => 000476BAC231
+
+
+\subsection*{IP Address vs MAC Address}
+
+IP is user configured, whereas the MAC address is set on the Network
+Interface Card. MAC address is used on LANs and IP is used on the
+Internet.
+
+
+\subsection*{TCP Sequence Number and Acknowledge Numbers}
+
+The sequence number indicates where the current data belongs in the
+entire data stream. The acknowledgement number is the next packet
+that the receiver is expecting, which indicates that previous packets
+have been received.
+
+
+\subsection*{ARP}
+
+ARP (Address Request Protocol) is a standard that computers on the
+same LAN use to discover each other's MAC addresses. It involves broadcasting
+a signal with destination MAC address all 1's, requesting the computer
+with a certain IP address; every computer will get this message and
+the computer with matching IP address will respond.
+\end{document}

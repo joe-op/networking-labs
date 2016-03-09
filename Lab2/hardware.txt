@@ -1,0 +1,18 @@
+Dell Optiplex 760: OptiPlex is a line of business computers from Dell. Our computers have Intel Core 2 processors, which is a family of five dual- or quad-core processors that run up to 3.3GHz. It has a 3Com 920-BR06 NIC which we cannot find information on since 3Com was bought by HP 6 years ago. It has 4GB (2x2GB) RAM, which is more than enough for most uses.
+NIC 3Com 920-BR06
+2x2GB Samsung
+
+Leviton PowerSum Category 5: 
+This patch panel provides 48 ports.  The category 5 cables used can perform at up to 100 MHz.  They may be used at network speeds of around 10 to 100 Mbps. "PowerSum" refers to a way of measuring crosstalk between pairs of cables.
+
+
+
+http://www.tecdatawire.com/catspec.html
+http://communities.leviton.com/thread/1666
+
+
+http://www.dell.com/us/business/p/optiplex-desktops.aspx
+[archive.org] 
+http://techcrunch.com/2009/11/11/hp-acquires-3com-for-2-7-billion/
+http://www.intel.com/pressroom/archive/releases/20060727comp.htm?cid=rss-83642-c1-135841
+http://www.maximumpc.com/the-memory-buyers-guide-whats-the-best-ram-for-my-system/
